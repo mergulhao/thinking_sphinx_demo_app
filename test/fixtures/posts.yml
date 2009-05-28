@@ -1,11 +1,27 @@
-# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
-
-one:
-  title: MyString
-  body: MyText
+lorem:
+  title: Lorem ipsum dolor
+  body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu nunc, ullamcorper ut pharetra ut, consectetur eget dolor. Etiam a. 
   published: false
+  created_at: <%= 4.days.ago.to_s(:db) %>
+  updated_at: <%= 4.days.ago.to_s(:db) %>
 
-two:
-  title: MyString
-  body: MyText
-  published: false
+duis:
+  title: Duis elementum tempor
+  body: Duis elementum tempor tempor ipsum. Cras consequat viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos. 
+  published: true
+  created_at: <%= 3.days.ago.to_s(:db) %>
+  updated_at: <%= 3.days.ago.to_s(:db) %>
+
+nulla:
+  title: Nulla non urna nec
+  body: Nulla non urna nec enim vehicula lobortis quis non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames.
+  published: true
+  created_at: <%= 2.days.ago.to_s(:db) %>
+  updated_at: <%= 2.days.ago.to_s(:db) %>
+
+sagittis:
+  title: Sagittis neque ac
+  body: Sagittis neque ac lorem auctor mollis blandit ipsum consectetur. In libero turpis, vulputate eget ultrices tempor, varius sed sem. 
+  published: true
+  created_at: <%= 1.days.ago.to_s(:db) %>
+  updated_at: <%= 1.days.ago.to_s(:db) %>
