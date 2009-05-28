@@ -1,0 +1,5 @@
+development:
+  sql_range_step: 999999999
+
+test:
+  sql_range_step: 999999999
